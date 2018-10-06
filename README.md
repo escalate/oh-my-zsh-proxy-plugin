@@ -2,6 +2,18 @@
 
 Aliases and functions to manage proxy shell environment settings
 
+## Installation
+
+Clone plugin
+```bash
+$ git clone https://github.com/escalate/oh-my-zsh-proxy-plugin.git "$(HOME)/.oh-my-zsh/custom/plugins/proxy"
+```
+
+Enable plugin in ~/.zshrc
+```
+plugins=(proxy)
+```
+
 ## Configuration
 
 Proxy settings can be configured inside the following files:
