@@ -55,3 +55,7 @@ or
 
 $ lsproxy
 ```
+
+## License
+
+MIT
