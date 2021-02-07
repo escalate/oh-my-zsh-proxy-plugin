@@ -1,15 +1,15 @@
 # oh-my-zsh proxy plugin
 
-Aliases and functions to manage proxy shell environment settings
+An [oh-my-zsh](https://ohmyz.sh) plugin to manage proxy shell environment settings.
 
 ## Installation
 
-Clone plugin
+Clone repository into oh-my-zsh custom plugins directory
 ```bash
 $ git clone https://github.com/escalate/oh-my-zsh-proxy-plugin.git "$(HOME)/.oh-my-zsh/custom/plugins/proxy"
 ```
 
-Enable plugin in ~/.zshrc
+Enable proxy plugin in ~/.zshrc configuration
 ```
 plugins=(proxy)
 ```
@@ -23,6 +23,8 @@ Proxy settings can be configured inside the following files:
   * ~/.proxy/ftp_proxy
   * ~/.proxy/rsync_proxy
   * ~/.proxy/no_proxy
+
+Only the value of the corresponding environment variable must be stored in the files.
 
 ## Usage
 
