@@ -32,6 +32,19 @@ Proxy environment settings can be configured inside the following files:
 
 Only the value of the corresponding environment variable must be stored in the files.
 
+## Enable / Disable proxy environment settings by default
+
+The proxy environment settings are disabled by default.
+
+To enable proxy environment settings with every new shell, the corresponding function must be called within the `~/.zshrc` configuration file.
+
+```bash
+...
+plugins=(proxy)
+...
+proxy
+```
+
 ## Usage
 
 ### Enable proxy environment settings
