@@ -1,3 +1,5 @@
+[![Lint](https://github.com/escalate/oh-my-zsh-proxy-plugin/actions/workflows/lint.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/oh-my-zsh-proxy-plugin/actions/workflows/lint.yml)
+
 # oh-my-zsh proxy plugin
 
 An [oh-my-zsh](https://ohmyz.sh) plugin to quickly enable and disable proxy shell environment settings.
