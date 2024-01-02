@@ -15,9 +15,15 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install linter
+      - name: Install editorconfig-checker
         run: |
-          python -m pip install --disable-pip-version-check editorconfig-checker
+          gh release download --pattern "*linux-amd64.tar.gz" --dir /tmp
+          tar xvzf /tmp/ec-linux-amd64.tar.gz -C /tmp
+          chmod +x /tmp/bin/ec-linux-amd64
+          mv /tmp/bin/ec-linux-amd64 /usr/local/bin/ec
+        env:
+          GH_REPO: editorconfig-checker/editorconfig-checker
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Run linter
         run: |
