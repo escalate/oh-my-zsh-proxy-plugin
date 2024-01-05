@@ -1,4 +1,4 @@
-[![Lint](https://github.com/escalate/oh-my-zsh-proxy-plugin/actions/workflows/lint.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/oh-my-zsh-proxy-plugin/actions/workflows/lint.yml)
+[![Tests](https://github.com/escalate/oh-my-zsh-proxy-plugin/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/oh-my-zsh-proxy-plugin/actions/workflows/tests.yml)
 
 # oh-my-zsh proxy plugin
 
